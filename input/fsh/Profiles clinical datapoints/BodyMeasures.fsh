@@ -72,7 +72,7 @@ Description: "Represents the menopausal status of a patient"
 * code = SCT#161712005 "Menopause, function (observable entity)"
 * subject only Reference(BreastCancerPatient)
 * value[x] only CodeableConcept 
-* value[x] from MenopausalStatusVS (required)
+* value[x] from MenopausalStatusVS (preferred)
 * value[x] MS
 
 Instance: MenopausalStatusPatient147
@@ -82,7 +82,6 @@ Description: "An example of the menopausal status of a patient"
 * status = ObservationStatusCS#unknown
 * subject = Reference(BreastCancerPatient147)
 * valueCodeableConcept = SCT#309606002
-
 
 Mapping: MenopausalStatusToICHOM
 Source:	MenopausalStatus
